@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Calculo del area de un triangulo
 # Triangulo 1:
 
@@ -43,4 +44,27 @@ area = (base * altura) / 2
 
 print("Triangulo 2: ")
 >>>>>>> c93790a (Añadiendo fundamentos de la programación como curso entre otras novedades)
+=======
+# Calculo del area de un triangulo
+# Triangulo 1:
+
+base = 10
+altura = 5
+
+area = (base * altura) / 2
+
+print("Triángulo 1: ")
+print("La base es: ", base)
+print("La altura es: ", altura)
+print("Por ende, el área del triángulo es: ", area)
+
+# Triangulo 2:
+
+base = 25
+altura = 40
+
+area = (base * altura) / 2
+
+print("Triangulo 2: ")
+>>>>>>> e38e540854001bec45ecf0034d58677575bec673
 print("El resultado es: ", area)

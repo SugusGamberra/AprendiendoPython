@@ -1,30 +1,44 @@
-# VARIABLES
+# 🧠 VARIABLES EN PYTHON
 
-## Introducción
+## 💬 Introducción
 
-Las variables se usan para guardar datos que el programa necesita durante la ejecución (números, textos, fechas...). Son como cajitas donde guardas información temporal.
+Las variables se usan para guardar datos que el programa necesita durante la ejecución (números, textos, fechas...). Son como cajitas donde guardas información temporal 🗃️
 
-## Estructura de la variable
+---
 
-- Nombre: Cómo la identificas (string usuario, int puntuacion...)
-- Valor: Lo que guarda la variable
+## 🧩 Estructura de la variable
 
-No podemos llamar a la variable de cualquier forma, tienes que tenerlas bien organizadas! Existen unas normas para que su uso no sea un dolor de cabeza ni de errores!
+- **Nombre**: Cómo la identificas (`usuario`, `puntuacion`...)
+- **Valor**: Lo que guarda la variable (`Lucia`, `187`...)
 
-- No pueden empezar por un numero.
-- No pueden tener espacios.
-- Nada de caracteres raros, salvo _.
-- Python distingue mayusculas y minusculas, por lo que edad y Edad serian dos variables diferentes.
-- Buena práctica: Empieza siempre en minúsculas, si son varias palabras para separarlas usa mayúsculas: edadUsuario.
+### 📝 Reglas para nombrarlas
 
-## Cómo se declara?
+#### 🚫 No pueden:
 
-Para declarar (crear) una variable en Python no nos comemos la cabeza. No tienes que decirle que tipo de valor almacena, la estructura es siempre nombreVariable = valor.
+- Empezar por un número
+- Tener espacios
+- Usar símbolos raros (solo `_` permitido)
 
-Aquí el = no es como en mates, significa "oye mi variable almacena este valor".
+⚠️ Python distingue mayúsculas de minúsculas:
+`edad` y `Edad` no son lo mismo.
+
+> 💡 Buena práctica: usa minúsculas, y si son varias palabras, separa con mayúsculas:
+
+```python 
+edadUsuario = 33
+```
+
+---
+
+## ⚙️ Cómo se declara?
+
+Para declarar (crear) una variable en Python no nos comemos la cabeza. No tienes que decirle que tipo de valor almacena, la estructura es siempre `nombreVariable = valor`.
+
+Aquí el `=` no es como en mates, significa "**oye mi variable almacena este valor**".
 
 Ejemplo de variables en Python:
 
+```python
 nombre = "Mario"
 
 edad = 33
@@ -32,25 +46,35 @@ edad = 33
 precio = 38.99
 
 VIP = false
+```
 
-## Cómo se usa?
+---
+
+## 🔍 Cómo se usa?
 
 Pues una vez la tienes declarada tan solo usa su nombre para ver lo que contiene o trabajar con ella, por ejemplo:
 
+```python
 nombre = "Mario"
 edad = 33
 
 print(nombre)
 print(edad)
+```
 
-## Concatenar
+---
 
-Si queremos unir texto con variables, o juntar varias variables, concatenamos con el simbolo ,. Con el ejemplo anterior haríamos:
+## 🔗 Concatenar
 
+Si queremos unir texto con variables, o juntar varias variables, concatenamos con el simbolo `,` o `+`. Con el ejemplo anterior haríamos:
+
+```python
 print("Me llamo ", nombre, " y tengo ", edad, " años")
+```
 
 También podemos concatenar de la siguiente forma:
 
+```python
 palabra1 = "Fundamentos "
 palabra2 = "de "
 palabra3 = "Programacion"
@@ -58,11 +82,19 @@ palabra3 = "Programacion"
 fraseCompleta = palabra1 + palabra2 + palabra3
 
 print(fraseCompleta)
+```
 
-# COMENTARIOS
+---
 
-Para hacer comentarios en Python usamos el símbolo #. Los comentarios se usan para explicar tu código, bien para ti o si trabajas en equipo, de esta forma mantienes todo explicado y organizado!
+# 💬 COMENTARIOS
 
-Y por hoy ya estaria!!
+Para hacer comentarios en Python usamos el símbolo `#`. Los comentarios se usan para explicar tu código, bien para ti o si trabajas en equipo, de esta forma mantienes todo explicado y organizado!
 
-Así que nada, un print("abrazote ;D") para ti!
+```python
+# Esto sería el ejemplo de un comentario en python :3
+```
+
+---
+
+> 🎉 Y por hoy ya estaria!!
+> Así que nada, un print("abrazote ;D") para ti!
